@@ -50,8 +50,8 @@ dotnet_style_null_propagation = true:suggestion
 dotnet_style_prefer_is_null_check_over_reference_equality_method = true:suggestion
 
 # Using directives
-dotnet_sort_system_directives_first = true
-dotnet_separate_import_directive_groups = true
+dotnet_sort_system_directives_first = true:suggestion
+dotnet_separate_import_directive_groups = false
 
 # Qualification preferences
 dotnet_style_qualification_for_field = false:suggestion

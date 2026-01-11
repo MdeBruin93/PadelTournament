@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PadelTournament.AppHost/PadelTournament.AppHost.csproj" />
+    <Project Path="src/PadelTournament.ServiceDefaults/PadelTournament.ServiceDefaults.csproj" />
+    <Project Path="src/PadelTournament.Web/PadelTournament.Web.Client/PadelTournament.Web.Client.csproj" />
+    <Project Path="src/PadelTournament.Web/PadelTournament.Web/PadelTournament.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="PadelTournament.Tests/PadelTournament.Tests.csproj" Id="356d9c14-badd-4b5b-95b0-2bed13dbeb8e" />
+  </Folder>
+</Solution>

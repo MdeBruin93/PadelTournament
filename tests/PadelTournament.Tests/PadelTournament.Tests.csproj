@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\PadelTournament.AppHost\PadelTournament.AppHost.csproj" />
+    <ProjectReference Include="..\..\src\PadelTournament.AppHost\PadelTournament.AppHost.csproj" />
   </ItemGroup>
 
   <ItemGroup>

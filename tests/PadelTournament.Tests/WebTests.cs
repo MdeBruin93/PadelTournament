@@ -34,8 +34,8 @@ public class WebTests
         await app.StartAsync(cancellationToken).WaitAsync(DefaultTimeout, cancellationToken);
 
         // Act
-        var httpClient = app.CreateHttpClient("webfrontend");
-        await app.ResourceNotifications.WaitForResourceHealthyAsync("webfrontend", cancellationToken).WaitAsync(DefaultTimeout, cancellationToken);
+        var httpClient = app.CreateHttpClient("padeltournament-web");
+        await app.ResourceNotifications.WaitForResourceHealthyAsync("padeltournament-web", cancellationToken).WaitAsync(DefaultTimeout, cancellationToken);
         var response = await httpClient.GetAsync("/", cancellationToken);
 
         // Assert

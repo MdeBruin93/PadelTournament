@@ -8,6 +8,6 @@
     <Project Path="src/PadelTournament.ServiceDefaults/PadelTournament.ServiceDefaults.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="PadelTournament.Tests/PadelTournament.Tests.csproj" Id="356d9c14-badd-4b5b-95b0-2bed13dbeb8e" />
+    <Project Path="tests/PadelTournament.Tests/PadelTournament.Tests.csproj" Id="356d9c14-badd-4b5b-95b0-2bed13dbeb8e" />
   </Folder>
 </Solution>
